@@ -220,3 +220,28 @@ h6,
 .blog-item:hover img {
     transform: scale(1.1);
 }
+.whatsapp-float{
+    position: fixed !important;
+    width: 60px;
+    height: 60px;
+    bottom: 25px;
+    right: 25px;
+    background-color: #25D366 !important;
+    color: #ffffff !important;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 32px;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none !important;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+    z-index: 999999 !important;
+    transition: all 0.3s ease;
+}
+
+.whatsapp-float:hover{
+    transform: scale(1.1);
+    background-color: #1ebe5d !important;
+    color: #ffffff !important;
+}
